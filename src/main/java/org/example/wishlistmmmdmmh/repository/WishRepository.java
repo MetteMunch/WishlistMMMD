@@ -1,16 +1,14 @@
-package org.example.wishlistmmmd.repository;
+package org.example.wishlistmmmdmmh.repository;
 
-import org.example.wishlistmmmd.model.UserProfile;
-import org.example.wishlistmmmd.model.Wish;
-import org.example.wishlistmmmd.model.WishList;
+import org.example.wishlistmmmdmmh.model.UserProfile;
+import org.example.wishlistmmmdmmh.model.Wish;
+import org.example.wishlistmmmdmmh.model.WishList;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.sql.Date;
-import java.sql.*;
-import java.time.LocalDate;
 import java.util.List;
 
 @Repository

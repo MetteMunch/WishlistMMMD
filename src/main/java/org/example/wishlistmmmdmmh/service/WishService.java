@@ -1,10 +1,10 @@
-package org.example.wishlistmmmd.service;
+package org.example.wishlistmmmdmmh.service;
 
 import jakarta.servlet.http.HttpSession;
-import org.example.wishlistmmmd.model.UserProfile;
-import org.example.wishlistmmmd.model.Wish;
-import org.example.wishlistmmmd.model.WishList;
-import org.example.wishlistmmmd.repository.WishRepository;
+import org.example.wishlistmmmdmmh.model.UserProfile;
+import org.example.wishlistmmmdmmh.model.Wish;
+import org.example.wishlistmmmdmmh.model.WishList;
+import org.example.wishlistmmmdmmh.repository.WishRepository;
 import org.springframework.stereotype.Service;
 
 import java.sql.Date;

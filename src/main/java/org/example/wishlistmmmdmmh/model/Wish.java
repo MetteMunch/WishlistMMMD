@@ -1,4 +1,4 @@
-package org.example.wishlistmmmd.model;
+package org.example.wishlistmmmdmmh.model;
 
 public class Wish {
 

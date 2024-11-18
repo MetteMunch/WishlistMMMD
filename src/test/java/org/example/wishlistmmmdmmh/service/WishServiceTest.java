@@ -1,19 +1,15 @@
-package org.example.wishlistmmmd.service;
+package org.example.wishlistmmmdmmh.service;
 
 import jakarta.servlet.http.HttpSession;
-import org.example.wishlistmmmd.model.Wish;
-import org.example.wishlistmmmd.model.WishList;
-import org.example.wishlistmmmd.repository.DatabaseConfig;
-import org.example.wishlistmmmd.repository.WishRepository;
+import org.example.wishlistmmmdmmh.model.WishList;
+import org.example.wishlistmmmdmmh.repository.DatabaseConfig;
+import org.example.wishlistmmmdmmh.repository.WishRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.ActiveProfiles;
 
 import java.sql.Date;

@@ -1,12 +1,11 @@
-package org.example.wishlistmmmd.controller;
+package org.example.wishlistmmmdmmh.controller;
 
-import org.example.wishlistmmmd.model.UserProfile;
-import org.example.wishlistmmmd.model.Wish;
-import org.example.wishlistmmmd.model.WishList;
-import org.example.wishlistmmmd.service.WishService;
+import org.example.wishlistmmmdmmh.model.UserProfile;
+import org.example.wishlistmmmdmmh.model.Wish;
+import org.example.wishlistmmmdmmh.model.WishList;
+import org.example.wishlistmmmdmmh.service.WishService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

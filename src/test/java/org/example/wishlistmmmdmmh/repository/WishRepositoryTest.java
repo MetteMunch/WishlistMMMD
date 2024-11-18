@@ -1,4 +1,4 @@
-package org.example.wishlistmmmd.repository;
+package org.example.wishlistmmmdmmh.repository;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

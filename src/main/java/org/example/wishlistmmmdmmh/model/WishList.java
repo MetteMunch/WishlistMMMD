@@ -1,4 +1,4 @@
-package org.example.wishlistmmmd.model;
+package org.example.wishlistmmmdmmh.model;
 
 import java.util.Date;
 import java.util.List;

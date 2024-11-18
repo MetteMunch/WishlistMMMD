@@ -1,13 +1,11 @@
-package org.example.wishlistmmmd.controller;
+package org.example.wishlistmmmdmmh.controller;
 
-import org.example.wishlistmmmd.model.UserProfile;
-import org.example.wishlistmmmd.model.WishList;
-import org.example.wishlistmmmd.service.WishService;
-import org.junit.jupiter.api.AfterEach;
+import org.example.wishlistmmmdmmh.model.UserProfile;
+import org.example.wishlistmmmdmmh.model.WishList;
+import org.example.wishlistmmmdmmh.service.WishService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static java.util.Date.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
@@ -18,12 +16,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.mock.web.MockHttpSession;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.sql.Date;
-import java.text.SimpleDateFormat;
 import java.util.List;
 
 
