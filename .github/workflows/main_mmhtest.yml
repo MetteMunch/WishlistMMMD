@@ -4,6 +4,7 @@
 name: Build and deploy JAR app to Azure Web App - mmhtest
 
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -23,7 +24,7 @@ jobs:
           distribution: 'microsoft'
 
       - name: Build with Maven
-         env:
+        env:
           DB_URL: ${{secrets.DB_URL}}
           DB_USER: ${{secrets.DB_USER}}
           DB_PASS: ${{secrets.DB_PASS}}
