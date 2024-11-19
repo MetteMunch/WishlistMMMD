@@ -7,6 +7,7 @@ public class Wish {
     private String description;
     private String link;
     private double price;
+    
 
     public Wish(int wishID, String wishName, String description, String link, double price) {
         this.wishID = wishID;
